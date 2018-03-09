@@ -7,7 +7,7 @@ var answers = ["a", "d", "c", "b", "c", "a", "b", "d", "d", "b"];
 
 //game timer
 function timer() {
-    var time = 10;
+    var time = 45;
     var timer = setInterval(function () {
         $(".time").html("You have " + time + " seconds remaining.")
         time--;
@@ -19,24 +19,6 @@ function timer() {
     function done() {
         clearInterval(timer);
     }
-}
-
-//display questions
-function displayQuestions() {
-
-    //linking q&a's from array to vars & displaying
-    question = questions[pos][0];
-    ans1 = questions[pos][1];
-    ans2 = questions[pos][2];
-    ans3 = questions[pos][3];
-    ans4 = questions[pos][4];
-    $(".question").html(question)
-    $("#ans1").html(ans1);
-    $("#ans2").html(ans2);
-    $("#ans3").html(ans3);
-    $("#ans4").html(ans4);
-    //display quiz progress
-    $(".progress").html("Question " + (pos + 1) + " of " + questions.length);
 }
 
 function results() {
@@ -140,5 +122,3 @@ $(document).ready(function () {
         results();
     })
 });
-
-displayQuestions();

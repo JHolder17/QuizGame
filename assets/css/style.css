@@ -1,0 +1,65 @@
+body {
+    background: url("http://jinnanyang.com/data/out/125/586498790-hip-hop-wallpaper-layouts-backgrounds.jpg");
+}
+
+/* fixed header */
+
+.jumbotron{
+    background-color: rgb(245, 207, 171) !important; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+h1 {
+    text-align: center;
+    color: white !important;
+    text-shadow: 3px 3px black;
+}
+
+#words{
+    text-align: center;
+    color: white !important;
+    text-shadow: 2px 2px black;
+}
+
+/* start screen */
+#start {
+    background-color: rgb(245, 207, 171);
+    text-align: center;
+}
+
+#StartButton {
+    background-color: #e7e7e7; 
+    color: black;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: black;
+}
+
+/* game screen */
+#GameScreen1 {
+    background-color: rgb(245, 207, 171);
+}
+
+.time{
+    text-align: center;
+    font-weight: bold;
+}
+
+.question{
+    text-align: center;
+}
+
+.answers{
+    text-align: center;
+}
+
+#x {
+    text-align: center !important;
+}
+
+/* results screen */
+#results{
+    background-color: rgb(245, 207, 171);
+    text-align: center;
+}
