@@ -7,7 +7,7 @@ var answers = ["a", "d", "c", "b", "c", "a", "b", "d", "d", "b"];
 
 //game timer
 function timer() {
-    var time = 45;
+    var time = 120;
     var timer = setInterval(function () {
         $(".time").html("You have " + time + " seconds remaining.")
         time--;
